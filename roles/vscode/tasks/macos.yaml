@@ -1,0 +1,12 @@
+---
+- name: Install Visual Studio Code (macOS)
+  when: ansible_facts['os_family'] == "Darwin"
+  homebrew:
+    name: visual-studio-code
+    state: latest
+
+- name: Install Visual Studio Code extensions (macOS)
+  when: ansible_facts['os_family'] == "Darwin"
+  ansible.builtin.shell:
+    cmd: "code --install-extension {{ item.id }}"
+  loop: "{{ vscode.extensions }}"
