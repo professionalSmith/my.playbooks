@@ -1,0 +1,52 @@
+vscode:
+  extensions:
+    - name: Block Sorter
+      id: 1nvitr0.blocksort
+      github: https://github.com/1nVitr0/plugin-vscode-blocksort
+      marketplace: https://marketplace.visualstudio.com/items?itemName=1nVitr0.blocksort
+      tags:
+        - formatter
+
+    - name: Code Spell Checker
+      id: streetsidesoftware.code-spell-checker
+      github: https://github.com/streetsidesoftware/vscode-spell-checker
+      marketplace: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+      tags:
+        - spell checker
+
+    - name: Makefile Tools
+      id: ms-vscode.makefile-tools
+      github: https://github.com/Microsoft/vscode-makefile-tools
+      marketplace: https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
+      tags:
+        - language support
+        - makefile
+
+    - name: Markdown Table Sort Prettier
+      id: simonguo.vscode-markdown-table-sort
+      github: https://github.com/simonguo/vscode-markdown-table-sort
+      marketplace: https://marketplace.visualstudio.com/items?itemName=simonguo.vscode-markdown-table-sort
+      tags:
+        - formatter
+        - markdown
+
+    - name: Prettier - Code formatter
+      id: esbenp.prettier-vscode
+      github: https://github.com/prettier/prettier-vscode
+      marketplace: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+      tags:
+        - css
+        - formatter
+        - html
+        - javascript
+        - json
+        - typescript
+        - yaml
+
+    - name: Python extension for Visual Studio Code
+      id: ms-python.python
+      github: https://github.com/Microsoft/vscode-python
+      marketplace: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+      tags:
+        - language support
+        - python

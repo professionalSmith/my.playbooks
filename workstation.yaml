@@ -4,3 +4,4 @@
     ansible_user: "{{ lookup('env', 'USER') }}"
   roles:
     - clamav
+    - vscode
