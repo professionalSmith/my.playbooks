@@ -1,3 +1,3 @@
-.PHONY all test clean
+.PHONY: all test clean
 
 include makefiles/*.mk
