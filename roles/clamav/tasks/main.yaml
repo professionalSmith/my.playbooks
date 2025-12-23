@@ -1,0 +1,4 @@
+---
+- name: Run ClamAV tasks for macOS
+  when: ansible_facts['os_family'] == "Darwin"
+  include_tasks: macos.yaml
