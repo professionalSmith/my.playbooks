@@ -1,0 +1,6 @@
+---
+- hosts: all
+  vars:
+    ansible_user: "{{ lookup('env', 'USER') }}"
+  roles:
+    - clamav
