@@ -1,0 +1,16 @@
+---
+- name: Run Micro text-editor tasks (macOS)
+  when: ansible_facts['os_family'] == "Darwin"
+  ansible.builtin.include_tasks: macos.yaml
+
+- name: Get list of installed Micro text-editor extensions
+  ansible.builtin.command:
+    cmd: "micro -plugin list"
+  register: micro_plugins_list
+  failed_when: false
+
+- name: Install Micro text-editor extensions (cross-platform)
+  ansible.builtin.command:
+    cmd: "micro -plugin install {{ item.id }}"
+  loop: "{{ micro.extensions }}"
+  when: micro_plugins_list.stdout is defined and (item.id not in micro_plugins_list.stdout)
