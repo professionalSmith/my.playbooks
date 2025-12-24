@@ -14,14 +14,6 @@ vscode:
       tags:
         - spell checker
 
-    - name: Makefile Tools
-      id: ms-vscode.makefile-tools
-      github: https://github.com/Microsoft/vscode-makefile-tools
-      marketplace: https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools
-      tags:
-        - language support
-        - makefile
-
     - name: Markdown Table Sort Prettier
       id: simonguo.vscode-markdown-table-sort
       github: https://github.com/simonguo/vscode-markdown-table-sort
