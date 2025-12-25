@@ -5,6 +5,16 @@ and automatically documented with [Commitizen](https://commitizen-tools.github.i
 in [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.  
 Manual edits to this file are overwritten when bumping versions.
 
+## v0.2.0 (2025-12-25)
+
+### Bug Fixes
+
+- **release**: prevent git-hooks on bump
+
+### New Features
+
+- **python**: add role for installing Python development tooling
+
 ## v0.1.0 (2025-12-24)
 
 ### Bug Fixes

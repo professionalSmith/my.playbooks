@@ -1,0 +1,7 @@
+- name: Install Python development environment (macOS).
+  homebrew:
+    name: "{{ app.packages.homebrew }}"
+    state: present
+  loop: "{{ applications }}"
+  loop_control:
+    loop_var: app
