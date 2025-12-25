@@ -1,0 +1,45 @@
+repos:
+  - hooks:
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: check-shebang-scripts-are-executable
+      - id: check-symlinks
+      - id: check-vcs-permalinks
+      - id: destroyed-symlinks
+      - id: detect-private-key
+      - id: end-of-file-fixer
+        exclude: '^CHANGELOG.md$'
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+        exclude: '^CHANGELOG.md$'
+    repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+  - hooks:
+      - id: checkmake
+    repo: https://github.com/checkmake/checkmake.git
+    rev: 0.2.2
+  - hooks:
+      - id: commitizen
+    repo: https://github.com/commitizen-tools/commitizen
+    rev: v4.10.0
+  - hooks:
+      - id: yamlfmt
+    repo: https://github.com/google/yamlfmt
+    rev: v0.20.0
+  - hooks:
+      - id: markdownlint
+    repo: https://github.com/markdownlint/markdownlint
+    rev: v0.15.0
+  - hooks:
+      - id: bashate
+    repo: https://github.com/openstack/bashate
+    rev: 2.1.1
+  - hooks:
+      - id: shellcheck
+    repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.11.0.1
+  - hooks:
+      - id: trufflehog
+    repo: https://github.com/trufflesecurity/trufflehog
+    rev: v3.92.4
