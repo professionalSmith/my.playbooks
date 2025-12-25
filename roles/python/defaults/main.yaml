@@ -1,0 +1,27 @@
+applications:
+  - name: Conda
+    description: Python version and package manager.
+    docs: https://www.anaconda.com/docs/getting-started/miniconda/main
+    repo:
+      github: https://github.com/conda/conda
+    packages:
+      homebrew: miniconda
+    tags:
+      - version manager
+      - package manager
+      - environment manager
+  - name: uv
+    description: Python version, package, environment, and project manager.
+    docs: https://docs.astral.sh/uv/
+    repo:
+      github: https://github.com/astral-sh/uv
+    packages:
+      homebrew: uv
+    tags:
+      - version manager
+      - package manager
+      - environment manager
+      - project manager
+      - script runner
+      - command runner
+      - build tool
