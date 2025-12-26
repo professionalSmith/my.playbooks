@@ -1,0 +1,25 @@
+applications:
+  - name: diff-so-fancy
+    repo:
+      github: https://github.com/so-fancy/diff-so-fancy
+    packages:
+      homebrew: diff-so-fancy
+    tags:
+      - diff visualizer
+  - name: GitHub CLI
+    repo:
+      github:
+    packages:
+      homebrew: gh
+    tags:
+      - git client
+      - github
+  - name: Source Tree
+    repo:
+      github: https://github.com/GNOME/meld
+    packages:
+      homebrew:
+        - sourcetree
+    tags:
+      - git client
+      - gui
