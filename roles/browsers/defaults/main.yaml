@@ -1,0 +1,8 @@
+applications:
+  - name: Brave Web browser
+    repo:
+      github: https://github.com/brave/brave-browser
+    packages:
+      homebrew: brave-browser
+    tags:
+      - web browser
