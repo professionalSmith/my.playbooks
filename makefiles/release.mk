@@ -1,6 +1,6 @@
 .PHONY: all clean test
 
-TAG_LATEST := $(shell git describe --tags $(git rev-list --tags --max-count=1))
+TAG_LATEST := $$(git describe --tags $(git rev-list --tags --max-count=1))
 
 bump-check:
 	# Check what the next version is without making any changes
