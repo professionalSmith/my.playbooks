@@ -1,0 +1,89 @@
+applications:
+  - name: Ghostty
+    repo:
+      github: https://github.com/ghostty-org/ghostty
+    packages:
+      homebrew: ghostty
+    tags:
+      - terminal emulator
+  - name: bat
+    repo:
+      github: https://github.com/sharkdp/bat
+    packages:
+      homebrew: bat
+    tags:
+      - command line tool
+      - cat replacement
+      - git integration
+      - paging preprocessor
+  - name: direnv
+    description: Environment variable manager
+    docs: https://direnv.net/
+    repo:
+      github:
+    packages:
+      homebrew: direnv
+    tags:
+      - command line tool
+      - environment manager
+  - name: Fuzzy Finder (fzf)
+    repo:
+      github: https://github.com/junegunn/fzf
+    packages:
+      homebrew: fzf
+    tags:
+      - command line tool
+      - fuzzy search
+  - name: GNU Aspell
+    repo:
+      github: https://github.com/GNUAspell/aspell
+    packages:
+      homebrew: aspell
+    tags:
+      - command line tool
+      - spell checker
+  - name: GNU core utilities
+    description: Basic file, shell and text manipulation utilities expected of every GNU operating system.
+    docs: https://www.gnu.org/software/coreutils/
+    repo:
+      github: https://github.com/coreutils/coreutils
+    packages:
+      homebrew: coreutils
+    tags:
+      - command line tool
+      - kitchen sink
+  - name: GNU Stow
+    docs: https://www.gnu.org/software/stow/manual/
+    repo:
+      github: https://github.com/aspiers/stow
+    packages:
+      homebrew: stow
+    tags:
+      - command line tool
+      - symlink manager
+  - name: GNU tree
+    repo:
+      github: https://github.com/kddnewton/tree
+    packages:
+      homebrew: tree
+    tags:
+      - command line tool
+      - directory visualizer
+  - name: tmux
+    repo:
+      github: https://github.com/tmux/tmux
+    packages:
+      homebrew: tmux
+    tags:
+      - command line tool
+      - terminal multiplexer
+  - name: Yazi
+    description: Terminal file manager
+    docs: https://yazi-rs.github.io/
+    repo:
+      github: https://github.com/sxyazi/yazi
+    packages:
+      homebrew: yazi
+    tags:
+      - command line tool
+      - file manager
