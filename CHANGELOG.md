@@ -5,6 +5,12 @@ and automatically documented with [Commitizen](https://commitizen-tools.github.i
 in [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.  
 Manual edits to this file are overwritten when bumping versions.
 
+## v0.5.0 (2025-12-27)
+
+### New Features
+
+- **terminal**: add terminal emulator
+
 ## v0.4.0 (2025-12-25)
 
 ### New Features
