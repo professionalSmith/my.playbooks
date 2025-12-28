@@ -1,0 +1,10 @@
+- name: Install Rosetta 2 (macOS).
+  ansible.builtin.shell:
+    cmd: softwareupdate --install-rosetta --agree-to-license
+- name: Install container tooling (macOS).
+  homebrew:
+    name: "{{ app.packages.homebrew }}"
+    state: present
+  loop: "{{ applications }}"
+  loop_control:
+    loop_var: app

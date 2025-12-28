@@ -1,0 +1,95 @@
+applications:
+  - name: Docker Desktop
+    packages:
+      homebrew: docker-desktop
+    tags:
+      - command line tools
+      - containers
+      - docker
+  - name: Helm
+    repo:
+      github: https://github.com/helm/helm
+    packages:
+      homebrew: helm
+    tags:
+      - command line tools
+      - containers
+      - kubernetes
+      - package management
+  - name: Helmfile
+    repo:
+      github: https://github.com/helmfile/helmfile
+    packages:
+      homebrew: helmfile
+    tags:
+      - command line tools
+      - containers
+      - kubernetes
+      - package management
+  - name: kubectl
+    repo:
+      github: https://github.com/kubernetes/kubectl
+    packages:
+      homebrew: kubectl
+    tags:
+      - command line tools
+      - kubernetes
+      - cluster management
+  - name: kustomize
+    repo:
+      github: https://github.com/kubernetes-sigs/kustomize
+    packages:
+      homebrew: kustomize
+    tags:
+      - command line tools
+      - kubernetes
+      - cluster management
+  - name: minikube
+    repo:
+      github: https://github.com/kubernetes/minikube
+    packages:
+      homebrew: minikube
+    tags:
+      - command line tools
+      - containers
+      - kubernetes
+      - cluster management
+  - name: Tilt
+    repo:
+      github: https://github.com/tilt-dev/tilt
+    packages:
+      homebrew: tilt
+    tags:
+      - command line tools
+      - containers
+      - development
+      - environment management
+vscode:
+  extensions:
+    - name: Container Tools for Visual Studio Code
+      id: ms-azuretools.vscode-containers
+      github: https://github.com/microsoft/vscode-containers
+      marketplace: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-containers
+      tags:
+        - containers
+        - language support
+        - container explorer
+        - image explorer
+        - registry explorer
+        - volume explorer
+        - network explorer
+        - dockerfile support
+        - docker-compose support
+        - ms-azuretools.vscode-docker replacement
+    - name: Visual Studio Code Kubernetes Tools
+      id: ms-kubernetes-tools.vscode-kubernetes-tools
+      github: https://github.com/vscode-kubernetes-tools/vscode-kubernetes-tools
+      marketplace: https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools
+      tags:
+        - containers
+        - docker support
+        - helm
+        - kubernetes
+        - language support
+        - cluster management
+        - podman support
