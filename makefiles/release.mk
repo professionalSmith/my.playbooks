@@ -18,11 +18,15 @@ generate-changelog:
 	# Generate or update the changelog
 	cz changelog
 
+push-changes:
+	# Push changes to the remote repository
+	git push origin main
+
 push-tag:
 	# Push the newly created tag to the remote repository
 	git push origin $(TAG_LATEST)
 
-release: checkout-main-branch bump push-tag
+release: checkout-main-branch bump push-changes push-tag
 	# Perform a full release: bump version, update changelog, and push tag
 	gh release create $(TAG_LATEST) --draft --generate-notes --latest --verify-tag
 
