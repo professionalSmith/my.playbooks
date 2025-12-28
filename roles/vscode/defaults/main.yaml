@@ -1,28 +1,62 @@
+applications:
+  - name: PlantUML
+    description: Create UML diagrams from plain text.
+    docs: https://plantuml.com
+    packages:
+      homebrew: plantuml
+    tags:
+      - software architecture
+      - diagramming
+      - uml
 vscode:
   extensions:
     - name: Block Sorter
+      description: Sort blocks of code, text, or other content.
       id: 1nvitr0.blocksort
       github: https://github.com/1nVitr0/plugin-vscode-blocksort
       marketplace: https://marketplace.visualstudio.com/items?itemName=1nVitr0.blocksort
       tags:
         - formatter
-
     - name: Code Spell Checker
+      description: Spell checker for source code and documents.
       id: streetsidesoftware.code-spell-checker
       github: https://github.com/streetsidesoftware/vscode-spell-checker
       marketplace: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
       tags:
         - spell checker
-
+    - name: Crabviz
+      description: Generate call graphs from files.
+      id: chanhx.crabviz
+      github: https://github.com/chanhx/crabviz
+      marketplace: https://marketplace.visualstudio.com/items?itemName=chanhx.crabviz
+      tags:
+        - language support
+        - debugging
+        - code exploration
+    - name: EditorConfig for VS Code
+      description: Maintain consistent coding styles between different editors and IDEs.
+      id: EditorConfig.EditorConfig
+      github: https://github.com/editorconfig/editorconfig-vscode
+      marketplace: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+      tags:
+        - configuration management
+    - name: Excel Viewer for VSCode
+      description: View CSV files directly in VSCode.
+      id: grapecity.gc-excelviewer
+      github: https://github.com/wijmo/gc-excelviewer
+      marketplace: https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer
+      tags:
+        - data management
     - name: Markdown Table Sort Prettier
+      description: Prettier plugin to sort markdown tables.
       id: simonguo.vscode-markdown-table-sort
       github: https://github.com/simonguo/vscode-markdown-table-sort
       marketplace: https://marketplace.visualstudio.com/items?itemName=simonguo.vscode-markdown-table-sort
       tags:
         - formatter
         - markdown
-
     - name: Prettier - Code formatter
+      description: An opinionated code formatter supporting many languages.
       id: esbenp.prettier-vscode
       github: https://github.com/prettier/prettier-vscode
       marketplace: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
@@ -34,11 +68,11 @@ vscode:
         - json
         - typescript
         - yaml
-
-    - name: Python extension for Visual Studio Code
-      id: ms-python.python
-      github: https://github.com/Microsoft/vscode-python
-      marketplace: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+    - name: PlantUML
+      description: Create UML diagrams from plain text.
+      id: jebbs.plantuml
+      github: https://github.com/qjebbs/vscode-plantuml
+      marketplace: https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
       tags:
-        - language support
-        - python
+        - diagramming
+        - uml

@@ -23,3 +23,17 @@ applications:
     tags:
       - git client
       - gui
+vscode:
+  extensions:
+    - name: GitHub Pull Requests
+      id: github.vscode-pull-request-github
+      github: https://github.com/Microsoft/vscode-pull-request-github
+      marketplace: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
+      tags:
+        - version control
+    - name: GitHub Copilot Chat
+      id: GitHub.copilot-chat
+      github: https://github.com/microsoft/vscode-copilot-chat
+      marketplace: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat
+      tags:
+        - ai assistant
