@@ -1,4 +1,7 @@
----
 - name: Run Visual Studio Code tasks for macOS
   when: ansible_facts['os_family'] == "Darwin"
   include_tasks: macos.yaml
+- name: Install Visual Studio Code extensions.
+  ansible.builtin.shell:
+    cmd: "code --install-extension {{ item.id }}"
+  loop: "{{ vscode.extensions }}"

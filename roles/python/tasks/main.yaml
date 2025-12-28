@@ -1,3 +1,7 @@
 - name: Run Python role tasks (macOS).
   when: ansible_facts['os_family'] == "Darwin"
   include_tasks: macos.yaml
+- name: Install Visual Studio Code extensions for Python.
+  ansible.builtin.shell:
+    cmd: "code --install-extension {{ item.id }}"
+  loop: "{{ vscode.extensions }}"

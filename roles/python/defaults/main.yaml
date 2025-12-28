@@ -25,3 +25,19 @@ applications:
       - script runner
       - command runner
       - build tool
+vscode:
+  extensions:
+    - name: Jupyter Extension for Visual Studio Code
+      id: ms-toolsai.jupyter
+      github: https://github.com/Microsoft/vscode-jupyter
+      marketplace: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
+      tags:
+        - notebook support
+        - python
+    - name: Python extension for Visual Studio Code
+      id: ms-python.python
+      github: https://github.com/Microsoft/vscode-python
+      marketplace: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+      tags:
+        - language support
+        - python
