@@ -1,4 +1,5 @@
 - hosts: all
+  name: Setup Workstation
   vars:
     ansible_user: "{{ lookup('env', 'USER') }}"
   roles:
