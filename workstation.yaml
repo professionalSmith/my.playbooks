@@ -3,6 +3,7 @@
     ansible_user: "{{ lookup('env', 'USER') }}"
   roles:
     - clamav
+    - containers
     - git
     - micro
     - python
