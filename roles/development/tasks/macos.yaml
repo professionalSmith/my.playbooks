@@ -1,7 +1,7 @@
 - name: Install development applications (macOS).
-  homebrew:
+  community.general.homebrew:
     name: '{{ app.packages.homebrew }}'
     state: present
-  loop: '{{ applications }}'
+  loop: '{{ development_applications }}'
   loop_control:
     loop_var: app

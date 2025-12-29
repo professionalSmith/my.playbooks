@@ -1,4 +1,4 @@
-applications:
+infrastructure_applications:
   - name: Amazon Web Services CLI
     docs: https://docs.aws.amazon.com/cli/
     repo:
@@ -104,7 +104,7 @@ applications:
       - development
       - environment management
 
-vscode:
+infrastructure_vscode:
   extensions:
     - name: Container Tools for Visual Studio Code
       id: ms-azuretools.vscode-containers

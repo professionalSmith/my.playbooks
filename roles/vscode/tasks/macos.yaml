@@ -1,5 +1,5 @@
 - name: Install Visual Studio Code (macOS)
   when: ansible_facts['os_family'] == "Darwin"
-  homebrew:
+  community.general.homebrew:
     name: visual-studio-code
-    state: latest
+    state: present
