@@ -1,7 +1,8 @@
 - name: Run tasks of development role (macOS).
   when: ansible_facts['os_family'] == "Darwin"
   include_tasks: macos.yaml
+
 - name: Install Visual Studio Code extensions for development role.
   ansible.builtin.shell:
-    cmd: "code --install-extension {{ item.id }}"
-  loop: "{{ vscode.extensions }}"
+    cmd: 'code --install-extension {{ item.id }}'
+  loop: '{{ vscode.extensions }}'

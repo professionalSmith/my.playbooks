@@ -8,6 +8,7 @@ applications:
       - web browser
       - open source
       - chromium derivative
+
   - name: Bruno
     description: Lightweight alternative to Postman/Insomnia.
     repo: https://github.com/usebruno/bruno
@@ -21,6 +22,7 @@ applications:
       - API testing
       - websocket client
       - open source
+
   - name: Slack
     description: Team communication and collaboration platform
     packages:
@@ -30,6 +32,7 @@ applications:
       - video conferencing
       - desktop sharing
       - closed source
+
   - name: Zoom
     description: Video communication and virtual meeting platform
     packages:

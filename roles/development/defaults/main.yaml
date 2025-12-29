@@ -11,6 +11,7 @@ applications:
       - package manager
       - environment manager
       - python
+
   - name: Deno
     docs: https://docs.deno.com/runtime/
     repo: https://github.com/denoland/deno
@@ -21,6 +22,7 @@ applications:
       - typescript
       - web assembly
       - version management
+
   - name: diff-so-fancy
     repo:
       github: https://github.com/so-fancy/diff-so-fancy
@@ -30,6 +32,7 @@ applications:
       - diff visualizer
       - diff tool
       - git enhancement
+
   - name: GitHub CLI
     repo:
       github:
@@ -38,6 +41,7 @@ applications:
     tags:
       - git client
       - github
+
   - name: Dyff
     description: A YAML diff tool that makes it easy to see what changed between files.
     docs: https://github.com/homeport/dyff/blob/main/.docs/commands/dyff.md
@@ -48,6 +52,7 @@ applications:
       - diff tool
       - yaml diff tool
       - yaml
+
   - name: Gnome Meld
     description: Visual diff and merge tool for files, directories, and git projects.
     docs: https://meld.app/
@@ -58,6 +63,7 @@ applications:
       - diff tool
       - gui application
       - command line tool
+
   - name: Node Version Manager (nvm)
     docs:
     repo: https://github.com/nvm-sh/nvm
@@ -66,6 +72,7 @@ applications:
     tags:
       - javascript
       - version management
+
   - name: ShellCheck
     description: Static analysis tool for shell scripts.
     docs: https://www.shellcheck.net/
@@ -75,6 +82,7 @@ applications:
     tags:
       - bash
       - linter
+
   - name: shfmt
     description: Bash script formatter.
     repo: https://github.com/patrickvane/shfmt
@@ -83,6 +91,7 @@ applications:
     tags:
       - bash
       - formatter
+
   - name: Prettier
     description: Polyglot code formatter.
     docs: https://prettier.io/docs/
@@ -101,6 +110,7 @@ applications:
       - markdown
       - scss
       - pluggable
+
   - name: Source Tree
     repo:
       github: https://github.com/GNOME/meld
@@ -110,6 +120,7 @@ applications:
     tags:
       - git client
       - gui
+
   - name: uv
     description: Python version, package, environment, and project manager.
     docs: https://docs.astral.sh/uv/
@@ -126,6 +137,7 @@ applications:
       - command runner
       - build tool
       - python
+
 vscode:
   extensions:
     - name: GitHub Copilot Chat
@@ -134,12 +146,14 @@ vscode:
       marketplace: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat
       tags:
         - ai assistant
+
     - name: GitHub Pull Requests
       id: github.vscode-pull-request-github
       github: https://github.com/Microsoft/vscode-pull-request-github
       marketplace: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
       tags:
         - version control
+
     - name: Jupyter Extension for Visual Studio Code
       id: ms-toolsai.jupyter
       github: https://github.com/Microsoft/vscode-jupyter
@@ -147,6 +161,7 @@ vscode:
       tags:
         - notebook support
         - python
+
     - name: Python extension for Visual Studio Code
       id: ms-python.python
       github: https://github.com/Microsoft/vscode-python
