@@ -1,5 +1,0 @@
-micro:
-  extensions:
-    - name: aspell Spell Checker
-      id: aspell
-      github: https://github.com/priner/micro-aspell-plugin
