@@ -5,6 +5,18 @@ and automatically documented with [Commitizen](https://commitizen-tools.github.i
 in [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.  
 Manual edits to this file are overwritten when bumping versions.
 
+## v0.11.0 (2025-12-29)
+
+### Code Refactoring
+
+- **containers**: move containers role to infrastructure
+
+### New Features
+
+- **terraform**: install Terraform infrastructure provisioner
+- **opentofu**: install OpenTofu on macOS
+- **aws**: install AWS CLI on macOS
+
 ## v0.10.0 (2025-12-29)
 
 ### Code Refactoring
