@@ -10,6 +10,7 @@ applications:
       - version manager
       - package manager
       - environment manager
+      - python
   - name: Deno
     docs: https://docs.deno.com/runtime/
     repo: https://github.com/denoland/deno
@@ -20,6 +21,26 @@ applications:
       - typescript
       - web assembly
       - version management
+  - name: Dyff
+    description: A YAML diff tool that makes it easy to see what changed between files.
+    docs: https://github.com/homeport/dyff/blob/main/.docs/commands/dyff.md
+    repo: https://github.com/homeport/dyff
+    packages:
+      homebrew: homeport/tap/dyff
+    tags:
+      - diff tool
+      - yaml diff tool
+      - yaml
+  - name: Gnome Meld
+    description: Visual diff and merge tool for files, directories, and git projects.
+    docs: https://meld.app/
+    repo: https://github.com/GNOME/meld
+    packages:
+      homebrew: meld
+    tags:
+      - diff tool
+      - gui application
+      - command line tool
   - name: Node Version Manager (nvm)
     docs:
     repo: https://github.com/nvm-sh/nvm
@@ -28,6 +49,41 @@ applications:
     tags:
       - javascript
       - version management
+  - name: ShellCheck
+    description: Static analysis tool for shell scripts.
+    docs: https://www.shellcheck.net/
+    repo: https://github.com/koalaman/shellcheck
+    packages:
+      homebrew: shellcheck
+    tags:
+      - bash
+      - linter
+  - name: shfmt
+    description: Bash script formatter.
+    repo: https://github.com/patrickvane/shfmt
+    packages:
+      homebrew: shfmt
+    tags:
+      - bash
+      - formatter
+  - name: Prettier
+    description: Polyglot code formatter.
+    docs: https://prettier.io/docs/
+    repo: https://github.com/prettier/prettier
+    packages:
+      homebrew: prettier
+    tags:
+      - formatter
+      - javascript
+      - typescript
+      - json
+      - yaml
+      - markdown
+      - css
+      - html
+      - markdown
+      - scss
+      - pluggable
   - name: uv
     description: Python version, package, environment, and project manager.
     docs: https://docs.astral.sh/uv/
@@ -43,6 +99,7 @@ applications:
       - script runner
       - command runner
       - build tool
+      - python
 vscode:
   extensions:
     - name: Jupyter Extension for Visual Studio Code
