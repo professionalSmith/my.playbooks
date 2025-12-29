@@ -1,0 +1,19 @@
+applications:
+  - name: Deno
+    docs: https://docs.deno.com/runtime/
+    repo: https://github.com/denoland/deno
+    packages:
+      homebrew: deno
+    tags:
+      - javascript
+      - typescript
+      - web assembly
+      - version management
+  - name: Node Version Manager (nvm)
+    docs:
+    repo: https://github.com/nvm-sh/nvm
+    packages:
+      homebrew: nvm
+    tags:
+      - javascript
+      - version management
