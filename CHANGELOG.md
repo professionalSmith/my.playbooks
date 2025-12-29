@@ -5,6 +5,19 @@ and automatically documented with [Commitizen](https://commitizen-tools.github.i
 in [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.  
 Manual edits to this file are overwritten when bumping versions.
 
+## v0.10.0 (2025-12-29)
+
+### Code Refactoring
+
+- **git**: move git role into development
+- **javascript**: integrate javascript role into development role
+- **python**: rename python role to development
+- **micro**: add micro to terminal role
+
+### New Features
+
+- **development**: add static analysis tools
+
 ## v0.9.0 (2025-12-28)
 
 ### Code Refactoring
