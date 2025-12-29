@@ -5,6 +5,16 @@ and automatically documented with [Commitizen](https://commitizen-tools.github.i
 in [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.  
 Manual edits to this file are overwritten when bumping versions.
 
+## v0.9.0 (2025-12-28)
+
+### Code Refactoring
+
+- **browsers**: rename role to communications
+
+### New Features
+
+- **communications**: add role for installing communications apps
+
 ## v0.8.0 (2025-12-28)
 
 ### New Features
