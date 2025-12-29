@@ -1,17 +1,19 @@
 - name: Run terminal role tasks (macOS).
   when: ansible_facts['os_family'] == "Darwin"
-  include_tasks: macos.yaml
+  ansible.builtin.include_tasks: macos.yaml
 
 - name: Query installed Micro text-editor extensions (cross-platform)
   ansible.builtin.command:
     cmd: 'micro -plugin list'
-  register: micro_plugins_list
+    creates: false
+  register: terminal_micro_plugins_list
   failed_when: false
 
 - name: Install Micro text-editor extensions (cross-platform)
   ansible.builtin.command:
     cmd: 'micro -plugin install {{ extension.id }}'
-  loop: '{{ micro.extensions }}'
+    creates: '{{ ansible_env.HOME }}/.config/micro/plug/{{ extension.id }}'
+  loop: '{{ terminal_micro.extensions }}'
   loop_control:
     loop_var: extension
-  when: micro_plugins_list.stdout is defined and (extension.id not in micro_plugins_list.stdout)
+  when: terminal_micro_plugins_list.stdout is defined and (extension.id not in terminal_micro_plugins_list.stdout)

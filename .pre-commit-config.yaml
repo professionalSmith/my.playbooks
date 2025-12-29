@@ -17,8 +17,13 @@ repos:
     rev: v6.0.0
 
   - hooks:
+      - id: ansible-lint
+    repo: https://github.com/ansible/ansible-lint
+    rev: v25.12.2
+
+  - hooks:
       - id: checkmake
-    repo: https://github.com/checkmake/checkmake.git
+    repo: https://github.com/checkmake/checkmake
     rev: 0.2.2
 
   - hooks:

@@ -1,4 +1,4 @@
-applications:
+terminal_applications:
   - name: Ghostty
     repo:
       github: https://github.com/ghostty-org/ghostty
@@ -117,7 +117,7 @@ applications:
       - command line tool
       - file manager
 
-micro:
+terminal_micro:
   extensions:
     - name: aspell Spell Checker
       id: aspell
