@@ -1,7 +1,7 @@
 - name: Install terminal tooling (macOS).
-  homebrew:
+  community.general.homebrew:
     name: '{{ app.packages.homebrew }}'
     state: present
-  loop: '{{ applications }}'
+  loop: '{{ terminal_applications }}'
   loop_control:
     loop_var: app

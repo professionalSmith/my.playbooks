@@ -1,11 +1,12 @@
 - name: Install Rosetta 2 (macOS).
-  ansible.builtin.shell:
+  ansible.builtin.command:
     cmd: softwareupdate --install-rosetta --agree-to-license
+    creates: /Library/Apple/usr/libexec/oah
 
 - name: Install applications of infrastructure role (macOS).
-  homebrew:
+  community.general.homebrew:
     name: '{{ app.packages.homebrew }}'
     state: present
-  loop: '{{ applications }}'
+  loop: '{{ infrastructure_applications }}'
   loop_control:
     loop_var: app

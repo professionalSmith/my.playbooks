@@ -1,7 +1,7 @@
-freshclam:
+clamav_freshclam:
   configfile:
     path: /opt/homebrew/etc/clamav/freshclam.conf
 
-clamd:
+clamav_clamd:
   configfile:
     path: /opt/homebrew/etc/clamav/clamd.conf

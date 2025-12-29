@@ -1,4 +1,4 @@
-applications:
+development_applications:
   - name: Conda
     description: Python version and package manager.
     docs: https://www.anaconda.com/docs/getting-started/miniconda/main
@@ -138,7 +138,7 @@ applications:
       - build tool
       - python
 
-vscode:
+development_vscode:
   extensions:
     - name: GitHub Copilot Chat
       id: GitHub.copilot-chat

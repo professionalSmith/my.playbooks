@@ -1,4 +1,4 @@
-applications:
+vscode_applications:
   - name: PlantUML
     description: Create UML diagrams from plain text.
     docs: https://plantuml.com
@@ -8,7 +8,8 @@ applications:
       - software architecture
       - diagramming
       - uml
-vscode:
+
+vscode_vscode:
   extensions:
     - name: Block Sorter
       description: Sort blocks of code, text, or other content.
