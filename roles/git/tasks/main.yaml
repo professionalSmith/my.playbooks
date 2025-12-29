@@ -1,7 +1,0 @@
-- name: Run git role tasks (macOS).
-  when: ansible_facts['os_family'] == "Darwin"
-  include_tasks: macos.yaml
-- name: Install Visual Studio Code extensions for git.
-  ansible.builtin.shell:
-    cmd: "code --install-extension {{ item.id }}"
-  loop: "{{ vscode.extensions }}"
