@@ -74,6 +74,16 @@ applications:
       - infrastructure as code
       - terraform alternative
       - open source
+  - name: Terraform
+    docs: https://developer.hashicorp.com/terraform
+    repo:
+      github: https://github.com/hashicorp/terraform
+    packages:
+      homebrew: terraform
+    tags:
+      - command line tools
+      - infrastructure provisioning
+      - infrastructure as code
   - name: Tilt
     repo:
       github: https://github.com/tilt-dev/tilt
