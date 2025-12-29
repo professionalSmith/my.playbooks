@@ -1,4 +1,4 @@
-- name: Install Web browsers (macOS).
+- name: Install applications of communications role (macOS).
   homebrew:
     name: "{{ app.packages.homebrew }}"
     state: present
