@@ -13,43 +13,43 @@
 - name: Generate Clam Anti-Virus signatures database configuration (macOS)
   when: ansible_facts['os_family'] == "Darwin"
   ansible.builtin.shell:
-    cmd: "clamconf -g freshclam.conf > {{ freshclam.configfile.path }}"
-    creates: "{{ freshclam.configfile.path }}"
+    cmd: 'clamconf -g freshclam.conf > {{ freshclam.configfile.path }}'
+    creates: '{{ freshclam.configfile.path }}'
 
 - name: Enable Clam Anti-Virus signatures database configuration (macOS).
   when: ansible_facts['os_family'] == "Darwin"
   ansible.builtin.lineinfile:
-    path: "{{ freshclam.configfile.path }}"
-    regexp: "^#DatabaseMirror database.clamav.net$"
-    line: "DatabaseMirror database.clamav.net"
+    path: '{{ freshclam.configfile.path }}'
+    regexp: '^#DatabaseMirror database.clamav.net$'
+    line: 'DatabaseMirror database.clamav.net'
 
 - name: Enable Clam Anti-Virus freshclam configuration file (macOS)
   when: ansible_facts['os_family'] == "Darwin"
   ansible.builtin.lineinfile:
-    path: "{{ freshclam.configfile.path }}"
+    path: '{{ freshclam.configfile.path }}'
     state: absent
-    regexp: "{{ item }}"
+    regexp: '{{ item }}'
   loop:
-    - "^# Comment out or remove the line below."
-    - "^Example"
+    - '^# Comment out or remove the line below.'
+    - '^Example'
 
 - name: Generate Clam Anti-Virus clamd configuration file (macOS)
   when: ansible_facts['os_family'] == "Darwin"
   ansible.builtin.shell:
-    cmd: "clamconf -g clamd.conf > {{ clamd.configfile.path }}"
-    creates: "{{ clamd.configfile.path }}"
+    cmd: 'clamconf -g clamd.conf > {{ clamd.configfile.path }}'
+    creates: '{{ clamd.configfile.path }}'
 
 - name: Enable Clam Anti-Virus clamd configuration file (macOS)
   when: ansible_facts['os_family'] == "Darwin"
   ansible.builtin.lineinfile:
-    path: "{{ clamd.configfile.path }}"
+    path: '{{ clamd.configfile.path }}'
     state: absent
-    regexp: "{{ item }}"
+    regexp: '{{ item }}'
   loop:
-    - "^# Comment out or remove the line below."
-    - "Example"
+    - '^# Comment out or remove the line below.'
+    - 'Example'
 
 - name: Update Clam Anti-Virus signatures database (macOS)
   when: ansible_facts['os_family'] == "Darwin"
   ansible.builtin.command:
-    cmd: "freshclam"
+    cmd: 'freshclam'
