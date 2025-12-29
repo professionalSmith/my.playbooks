@@ -10,6 +10,24 @@ applications:
       - version manager
       - package manager
       - environment manager
+  - name: Deno
+    docs: https://docs.deno.com/runtime/
+    repo: https://github.com/denoland/deno
+    packages:
+      homebrew: deno
+    tags:
+      - javascript
+      - typescript
+      - web assembly
+      - version management
+  - name: Node Version Manager (nvm)
+    docs:
+    repo: https://github.com/nvm-sh/nvm
+    packages:
+      homebrew: nvm
+    tags:
+      - javascript
+      - version management
   - name: uv
     description: Python version, package, environment, and project manager.
     docs: https://docs.astral.sh/uv/
