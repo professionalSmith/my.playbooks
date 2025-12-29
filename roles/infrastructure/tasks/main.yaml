@@ -1,7 +1,9 @@
-- name: Run containers role tasks (macOS).
+- name: Run tasks for infrastructure role (macOS).
   when: ansible_facts['os_family'] == "Darwin"
   include_tasks: macos.yaml
 - name: Install Visual Studio Code extensions for containers.
   ansible.builtin.shell:
-    cmd: "code --install-extension {{ item.id }}"
+    cmd: "code --install-extension {{ extension.id }}"
   loop: "{{ vscode.extensions }}"
+  loop_control:
+    loop_var: extension
