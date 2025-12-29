@@ -35,6 +35,15 @@ applications:
       - command line tool
       - fuzzy search
   - name: GNU Aspell
+    description: Terminal-based spell checker supported by editors and IDEs.
+    docs: http://aspell.net/
+    repo: https://github.com/GNUAspell/aspell
+    packages:
+      homebrew: aspell
+    tags:
+      - command line tool
+      - spell checker
+  - name: GNU Aspell
     repo:
       github: https://github.com/GNUAspell/aspell
     packages:
@@ -69,6 +78,15 @@ applications:
     tags:
       - command line tool
       - directory visualizer
+  - name: Micro text-editor
+    description: Terminal-based text editor with mouse support.
+    docs: https://micro-editor.github.io/
+    repo: https://github.com/zyedidia/micro
+    packages:
+      homebrew: micro
+    tags:
+      - command line tool
+      - text editor
   - name: tmux
     repo:
       github: https://github.com/tmux/tmux
@@ -87,3 +105,8 @@ applications:
     tags:
       - command line tool
       - file manager
+micro:
+  extensions:
+    - name: aspell Spell Checker
+      id: aspell
+      github: https://github.com/priner/micro-aspell-plugin
