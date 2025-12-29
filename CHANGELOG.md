@@ -5,6 +5,13 @@ and automatically documented with [Commitizen](https://commitizen-tools.github.i
 in [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.  
 Manual edits to this file are overwritten when bumping versions.
 
+## v0.8.0 (2025-12-28)
+
+### New Features
+
+- **ansible**: add Make rule to generate roles
+- **javascript**: add role for installing JavaScript tooling
+
 ## v0.7.0 (2025-12-28)
 
 ### New Features
