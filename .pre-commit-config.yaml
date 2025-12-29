@@ -15,30 +15,37 @@ repos:
         exclude: '^CHANGELOG.md$'
     repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
+
   - hooks:
       - id: checkmake
     repo: https://github.com/checkmake/checkmake.git
     rev: 0.2.2
+
   - hooks:
       - id: commitizen
     repo: https://github.com/commitizen-tools/commitizen
     rev: v4.10.0
-  - hooks:
-      - id: yamlfmt
-    repo: https://github.com/google/yamlfmt
-    rev: v0.20.0
+
+  - repo: https://github.com/kaechele/pre-commit-mirror-prettier
+    rev: v3.7.4
+    hooks:
+      - id: prettier
+
   - hooks:
       - id: markdownlint
     repo: https://github.com/markdownlint/markdownlint
     rev: v0.15.0
+
   - hooks:
       - id: bashate
     repo: https://github.com/openstack/bashate
     rev: 2.1.1
+
   - hooks:
       - id: shellcheck
     repo: https://github.com/shellcheck-py/shellcheck-py
     rev: v0.11.0.1
+
   - hooks:
       - id: trufflehog
     repo: https://github.com/trufflesecurity/trufflehog

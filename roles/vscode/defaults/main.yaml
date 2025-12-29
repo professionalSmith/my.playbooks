@@ -17,6 +17,7 @@ vscode:
       marketplace: https://marketplace.visualstudio.com/items?itemName=1nVitr0.blocksort
       tags:
         - formatter
+
     - name: Code Spell Checker
       description: Spell checker for source code and documents.
       id: streetsidesoftware.code-spell-checker
@@ -24,6 +25,7 @@ vscode:
       marketplace: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
       tags:
         - spell checker
+
     - name: Crabviz
       description: Generate call graphs from files.
       id: chanhx.crabviz
@@ -33,6 +35,7 @@ vscode:
         - language support
         - debugging
         - code exploration
+
     - name: EditorConfig for VS Code
       description: Maintain consistent coding styles between different editors and IDEs.
       id: EditorConfig.EditorConfig
@@ -40,6 +43,7 @@ vscode:
       marketplace: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
       tags:
         - configuration management
+
     - name: Excel Viewer for VSCode
       description: View CSV files directly in VSCode.
       id: grapecity.gc-excelviewer
@@ -47,6 +51,7 @@ vscode:
       marketplace: https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer
       tags:
         - data management
+
     - name: Markdown Table Sort Prettier
       description: Prettier plugin to sort markdown tables.
       id: simonguo.vscode-markdown-table-sort
@@ -55,6 +60,7 @@ vscode:
       tags:
         - formatter
         - markdown
+
     - name: Prettier - Code formatter
       description: An opinionated code formatter supporting many languages.
       id: esbenp.prettier-vscode
@@ -68,6 +74,7 @@ vscode:
         - json
         - typescript
         - yaml
+
     - name: PlantUML
       description: Create UML diagrams from plain text.
       id: jebbs.plantuml
