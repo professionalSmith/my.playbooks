@@ -1,4 +1,13 @@
 applications:
+  - name: Amazon Web Services CLI
+    docs: https://docs.aws.amazon.com/cli/
+    repo:
+      github: https://github.com/aws/aws-cli
+    packages:
+      homebrew: awscli
+    tags:
+      - command line tools
+      - aws
   - name: Docker Desktop
     packages:
       homebrew: docker-desktop
