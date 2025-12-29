@@ -5,9 +5,7 @@
   roles:
     - clamav
     - communications
-    - containers
-    - git
-    - javascript
-    - python
+    - development
+    - infrastructure
     - terminal
     - vscode
