@@ -21,6 +21,23 @@ applications:
       - typescript
       - web assembly
       - version management
+  - name: diff-so-fancy
+    repo:
+      github: https://github.com/so-fancy/diff-so-fancy
+    packages:
+      homebrew: diff-so-fancy
+    tags:
+      - diff visualizer
+      - diff tool
+      - git enhancement
+  - name: GitHub CLI
+    repo:
+      github:
+    packages:
+      homebrew: gh
+    tags:
+      - git client
+      - github
   - name: Dyff
     description: A YAML diff tool that makes it easy to see what changed between files.
     docs: https://github.com/homeport/dyff/blob/main/.docs/commands/dyff.md
@@ -84,6 +101,15 @@ applications:
       - markdown
       - scss
       - pluggable
+  - name: Source Tree
+    repo:
+      github: https://github.com/GNOME/meld
+    packages:
+      homebrew:
+        - sourcetree
+    tags:
+      - git client
+      - gui
   - name: uv
     description: Python version, package, environment, and project manager.
     docs: https://docs.astral.sh/uv/
@@ -102,6 +128,18 @@ applications:
       - python
 vscode:
   extensions:
+    - name: GitHub Copilot Chat
+      id: GitHub.copilot-chat
+      github: https://github.com/microsoft/vscode-copilot-chat
+      marketplace: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat
+      tags:
+        - ai assistant
+    - name: GitHub Pull Requests
+      id: github.vscode-pull-request-github
+      github: https://github.com/Microsoft/vscode-pull-request-github
+      marketplace: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
+      tags:
+        - version control
     - name: Jupyter Extension for Visual Studio Code
       id: ms-toolsai.jupyter
       github: https://github.com/Microsoft/vscode-jupyter
