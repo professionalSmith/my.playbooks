@@ -5,6 +5,12 @@ and automatically documented with [Commitizen](https://commitizen-tools.github.i
 in [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.  
 Manual edits to this file are overwritten when bumping versions.
 
+## v0.12.0 (2025-12-29)
+
+### New Features
+
+- **terminal**: install terminal recorder
+
 ## v0.11.0 (2025-12-29)
 
 ### Code Refactoring
