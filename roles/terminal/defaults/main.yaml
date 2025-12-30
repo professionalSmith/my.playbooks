@@ -7,6 +7,19 @@ terminal_applications:
     tags:
       - terminal emulator
 
+  - name: asciinema
+    description: Terminal session recorder
+    website: https://asciinema.org
+    docs: https://docs.asciinema.org
+    repo: https://github.com/asciinema/asciinema
+    packages:
+      homebrew: asciinema
+    tags:
+      - command line tool
+      - terminal recorder
+      - screencast
+      - demo
+
   - name: bat
     repo:
       github: https://github.com/sharkdp/bat
