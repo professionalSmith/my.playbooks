@@ -140,6 +140,28 @@ development_applications:
       - build tool
       - python
 
+  - name: yq
+    description:
+      - YAML, JSON, XML, CSV, TOML, HCL and properties processor.
+      - jq alternative with near feature parity and jq like syntax.
+    packages:
+      homebrew: yq
+    tags:
+      - command line tool
+      - CSV support
+      - file merging
+      - format conversion
+      - HCL support
+      - ini support
+      - JSON support
+      - KYAML support (Kubernetes YAML)
+      - parse values from file
+      - TOML support
+      - tsv support
+      - update values in file
+      - XML support
+      - YAML support
+
 development_vscode:
   extensions:
     - name: GitHub Copilot Chat
