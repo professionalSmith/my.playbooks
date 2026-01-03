@@ -110,6 +110,8 @@ development_applications:
       - markdown
       - scss
       - pluggable
+    aliases:
+      - 'alias rewrap="prettier -w --prose-wrap=always"'
 
   - name: Source Tree
     repo:
