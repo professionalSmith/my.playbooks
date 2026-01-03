@@ -61,15 +61,6 @@ terminal_applications:
       - command line tool
       - spell checker
 
-  - name: GNU Aspell
-    repo:
-      github: https://github.com/GNUAspell/aspell
-    packages:
-      homebrew: aspell
-    tags:
-      - command line tool
-      - spell checker
-
   - name: GNU core utilities
     description: Basic file, shell and text manipulation utilities expected of every GNU operating system.
     docs: https://www.gnu.org/software/coreutils/
