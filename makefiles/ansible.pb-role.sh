@@ -20,7 +20,7 @@ done
 OPTIONAL_SUB_DIRECTORIES="files handlers meta templates vars"
 for directory in $OPTIONAL_SUB_DIRECTORIES; do
     DIR="$ROLE_DIRECTORY/$directory"
-    read -pr "Create $DIR? [y/N]: " CONFIRM
+    read -rp "Create $DIR? [y/N]: " CONFIRM
     if [ "$CONFIRM" = "y" ] || [ "$CONFIRM" = "Y" ]; then
         mkdir -p "$DIR"
         touch "$ROLE_DIRECTORY/tasks/main.yaml"
