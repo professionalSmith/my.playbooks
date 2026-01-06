@@ -84,3 +84,14 @@ vscode_vscode:
       tags:
         - diagramming
         - uml
+
+    - name: Rainbow CSV
+      description: Colorizes columns of CSV files for reading.
+      id: mechatroner.rainbow-csv
+      repo: https://github.com/mechatroner/vscode_rainbow_csv
+      marketplace: https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv
+      tags:
+        - data management
+        - csv
+        - delimiter seperated values
+
