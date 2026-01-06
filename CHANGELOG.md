@@ -5,6 +5,22 @@ and automatically documented with [Commitizen](https://commitizen-tools.github.i
 in [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.  
 Manual edits to this file are overwritten when bumping versions.
 
+## v0.13.0 (2026-01-05)
+
+### Bug Fixes
+
+- **build**: reorder read options
+- removed duplicate software declaration
+
+### New Features
+
+- **vscode**: run commands when files are saved
+- **vscode**: add csv file viewer
+- **terminal**: improve directory listing readability
+- **development**: install yq
+- **markdown**: limit Markdown to 80 columns
+- **reviews**: track software under review
+
 ## v0.12.0 (2025-12-29)
 
 ### New Features
