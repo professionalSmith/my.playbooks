@@ -42,6 +42,17 @@ terminal_applications:
       - command line tool
       - environment manager
 
+  - name: eza
+    description: A modern replacement for 'ls' command
+    docs: https://eza.rocks/
+    repo: https://github.com/eza-community/eza
+    packages:
+      homebrew: eza
+    tags:
+      - command line tool
+      - ls replacement
+      - file listing
+
   - name: Fuzzy Finder (fzf)
     repo:
       github: https://github.com/junegunn/fzf
