@@ -95,3 +95,11 @@ vscode_vscode:
         - csv
         - delimiter seperated values
 
+    - name: Run on Save
+      description: Run scripts when files are saved.
+      id: emeraldwalk.runonsave
+      repo: https://github.com/emeraldwalk/vscode-runonsave
+      marketplace: https://marketplace.visualstudio.com/items?itemName=emeraldwalk.runonsave
+      tags:
+        - command runner
+        - automation
