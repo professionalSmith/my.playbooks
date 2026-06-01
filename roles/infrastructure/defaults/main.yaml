@@ -39,6 +39,17 @@ infrastructure_applications:
       - kubernetes
       - package management
 
+  - name: kubecolor
+    repo:
+      github: https://github.com/kubecolor/kubecolor
+    packages:
+      homebrew: kubecolor
+    tags:
+      - command line tools
+      - kubernetes
+      - cluster management
+      - developer experience
+
   - name: kubectl
     repo:
       github: https://github.com/kubernetes/kubectl
